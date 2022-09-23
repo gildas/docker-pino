@@ -1,4 +1,4 @@
-FROM node:9-alpine
+FROM node:18-alpine
 LABEL org.opencontainers.image.title="pino-pretty"
 LABEL org.opencontainers.image.description="Basic PINO logs formatter"
 LABEL org.opencontainers.image.authors="Gildas Cherruel <gildas.cherruel@genesys.com>"
