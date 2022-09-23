@@ -1,6 +1,9 @@
 FROM node:9-alpine
-LABEL maintainer="Gildas Cherruel <gildas@breizh.org>"
-LABEL version="0.0.1"
+LABEL org.opencontainers.image.title="pino-pretty"
+LABEL org.opencontainers.image.description="Basic PINO logs formatter"
+LABEL org.opencontainers.image.authors="Gildas Cherruel <gildas.cherruel@genesys.com>"
+LABEL org.opencontainers.image.version="0.0.2"
+LABEL org.opencontainers.image.licenses="MIT"
 
 RUN npm install -g pino-pretty \
     && npm cache clean --force
